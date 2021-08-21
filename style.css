@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -79,7 +80,7 @@ p {
 
 .menu {
     list-style: none;
- font-family: 'Tenali Ramakrishna', sans-serif;
+    font-family: 'Tenali Ramakrishna', sans-serif;
     position: absolute;
     top: 10px;
     right: 30px;
@@ -89,8 +90,8 @@ p {
 }
 
 .links {
-    float:left;
-    color:mediumpurple;
+    float: left;
+    color: mediumpurple;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 9px;
@@ -100,6 +101,18 @@ p {
 }
 
 .links:hover {
-background-color: plum;
+    background-color: plum;
 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: black;
 }
